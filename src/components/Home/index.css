@@ -1,0 +1,46 @@
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-card {
+    width: 75%;
+  }
+}
+
+.dashboard-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipl-logo {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.ipl-dashboard-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .ipl-dashboard-heading {
+    font-size: 44px;
+  }
+}
+
+.team-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}

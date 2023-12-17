@@ -1,0 +1,103 @@
+.latest-match-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1e293b;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.latest-match-details-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-details-card {
+    width: 70%;
+    justify-content: space-around;
+  }
+}
+
+.team-date-venue-result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.latest-match-competing-team-logo {
+  width: 25%;
+  padding: 5px;
+}
+
+.latest-match-text {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.competing-team {
+  font-size: 22px;
+}
+.date {
+  font-size: 20px;
+}
+.venue {
+  font-size: 16px;
+}
+.result {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .first-second-motm-umpires {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+.latest-match-competing-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.latest-match-competing-obj {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-competing-text {
+    text-align: end;
+  }
+
+  .latest-match-competing-obj {
+    text-align: end;
+  }
+}
+
+.separate {
+  width: 100%;
+  border: 1px solid #475569;
+}
+
+@media screen and (min-width: 768px) {
+  .separate {
+    width: 0px;
+    border: none;
+  }
+}
